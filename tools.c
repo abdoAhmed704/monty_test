@@ -42,7 +42,7 @@ void file_read(FILE *filedes)
  * parseLine - Separates each line into tokens to determine
  * which function to call
  * @BUFF: line from the file
- * @lines: line number
+ * @line_number: line number
  * @format:  storage format. If 0 Nodes will be entered as a stack.
  * if 1 nodes will be entered as a queue.
  * Return: Returns 0 if the opcode is stack. 1 if queue.
