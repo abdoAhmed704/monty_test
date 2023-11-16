@@ -53,13 +53,13 @@ void file_read(FILE *filedes);
 int len_chars(FILE *);
 
 /*Stack operations*/
-stack_t *node_create(int num)
+stack_t *node_create(int num);
 void nodes_free(void);
 void add_stack(stack_t **new_node, __attribute__((unused))unsigned int ln);
 void stack_print(stack_t **stack, unsigned int lines);
 void add_queue(stack_t **, unsigned int);
 
-void FUN_call(op_func func, char *op, char *val, int ln, int format)
+void FUN_call(op_func func, char *op, char *val, int ln, int format);
 
 void TOP_print(stack_t **stack, unsigned int lines);
 
