@@ -42,7 +42,7 @@ void Nodes_swap(stack_t **stack, unsigned int lines)
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @lines: Interger representing the line number of of the opcode.
  *
- * Return: nothing 
+ * Return: nothing
  */
 
 void nodes_ADD(stack_t **stack, unsigned int lines)
@@ -87,7 +87,7 @@ void nodes_SUB(stack_t **stack, unsigned int lines)
  * node_DIV - Adds the top two elements of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @lines: Interger representing the line number of of the opcode.
- * 
+ *
  * Return: nothing
  */
 
