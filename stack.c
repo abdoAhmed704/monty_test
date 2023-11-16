@@ -28,7 +28,7 @@ void node_MUL(stack_t **stack, unsigned int lines)
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @lines: Interger representing the line number of of the opcode.
  *
- *Return: nothing 
+ *Return: nothing
  */
 
 void node_MOD(stack_t **stack, unsigned int lines)
